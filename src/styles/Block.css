@@ -1,0 +1,46 @@
+.block-head{
+    font-size: clamp(2rem,5vw,4rem);
+}
+.block{
+    height: 60vh;
+    
+}
+.block-top{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-down a{
+    color: red;
+    font-weight: 500;
+}
+.block-down p{
+    color: #818284;
+    font-weight: 400;
+}
+.block-down h3{
+    font-weight: bold;
+}
+.block-down{
+    margin-top: 50px;
+    display: flex;
+   
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .block{
+        height: 100%;
+    }
+}
+@media (orientation:landscape) {
+    .block{
+        height: 100%;
+    }
+}
+@media (max-width:768px) and (orientation:landscape) {
+    .block{
+        height: 100%;
+    }
+}

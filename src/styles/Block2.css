@@ -1,0 +1,55 @@
+.block2{
+    height: 50vh;
+    background: #b9b6b6;
+}
+
+.block2-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block2-head{
+    font-size: clamp(2rem,5vw,3rem);
+}
+.block2-para{
+    font-size: clamp(1rem,5vw,1.5rem);
+}
+.block2-img{
+    max-width: 100%; /* Ensure the images don't exceed their container's width */
+    height: 100px; /* Maintain the aspect ratio of the images */
+margin: 25px;
+}
+.block2-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    max-width: 580px;
+    margin: 0 auto; /* Center horizontally when it doesn't reach the max-width */
+   
+    
+}
+.block2-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .block2{
+        height: 100%;
+    }
+    .block2-img{
+        margin: 10px;
+    }
+}
+@media (max-width:768px) and (orientation:landscape) {
+    .block2{
+        height: 100%;
+    }
+}
+@media  (orientation:landscape) {
+    .block2{
+        height: 100%;
+    }
+}

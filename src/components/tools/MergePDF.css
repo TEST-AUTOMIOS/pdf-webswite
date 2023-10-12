@@ -1,0 +1,71 @@
+.pdf-text1{
+    margin-top: 40px;
+    
+}
+.pdf-text2{
+    font-size: 42px;
+    color: #33333B;
+}
+.pdf-text3{
+    font-size: 22px;
+     color: #47474f;
+     margin-bottom: 50px;
+     
+}
+.pdf-text4{
+   
+   position: relative;
+   z-index: 1;
+   background-color: #e5322d;
+   padding: 24px 84px;
+   font-weight: 500;
+   border-radius: 12px;
+   margin-top: 20px;
+   color: white;
+   font-size: 24px;
+   text-decoration: none;
+   cursor: pointer;
+   
+}
+.pdf-text4:hover{
+    background-color: red;
+}
+
+.svg-container {
+    display: flex;
+    flex-direction: row; /* Arrange children in a column */
+ 
+   
+  }
+  
+  
+  .pdf-text5, .pdf-text6 {
+    margin-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    background-color: red;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .pdf-text5:hover, .pdf-text6:hover {
+    background-color: blue; /* Change the hover color */
+  }
+  
+  .pdf-text5 svg, .pdf-text6 svg {
+    fill: #fff;
+    width: 18px;
+    height: 16px;
+    margin: 1px;
+    vertical-align: middle;
+    
+  }
+  .pdf-top{
+    margin-top: 35px;
+  }
+  
+  

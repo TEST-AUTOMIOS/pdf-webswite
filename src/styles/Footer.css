@@ -1,0 +1,72 @@
+.fotter {
+  height: 60vh;
+}
+.fotter-di {
+  margin: 0 100px;
+  height: 50vh;
+}
+.fotter-top {
+  height: 100%;
+
+  margin-top: 40px;
+}
+
+.fotter-column {
+  text-align: left;
+}
+.fotter-column p {
+  margin: 10px 0px;
+  font-weight: 700;
+  color: #f40c0c;
+}
+.fotter-column ul {
+  list-style: none;
+}
+.fotter-column ul li {
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 5px; /* Adjust the margin to control the spacing between list items */
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .fotter {
+    height: 100%;
+  }
+  .fotter-di {
+    height: 100%;
+    margin: 0 10px;
+  }
+  .fotter-down{
+    margin:0;
+    padding: 0;
+    
+   max-width: 100%;
+   text-align: left;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .fotter {
+    height: 100%;
+  }
+  .fotter-di {
+    height: 100%;
+  }
+  
+}
+@media (max-width: 992px) and (orientation: landscape) {
+  .fotter {
+    height: 100%;
+  }
+  .fotter-di {
+    height: 100%;
+  }
+}
+
+/* //downside footer */
+
+.fotter-down {
+  margin: 5px 100px;
+ 
+}
