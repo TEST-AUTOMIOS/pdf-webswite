@@ -1,6 +1,6 @@
 .block2{
     height: 50vh;
-    background: #b9b6b6;
+   
 }
 
 .block2-cont{
@@ -13,6 +13,7 @@
 }
 .block2-para{
     font-size: clamp(1rem,5vw,1.5rem);
+
 }
 .block2-img{
     max-width: 100%; /* Ensure the images don't exceed their container's width */
@@ -41,14 +42,19 @@ margin: 25px;
     }
     .block2-img{
         margin: 10px;
+        height: 30px;
+        width: 30px;
     }
 }
 @media (max-width:768px) and (orientation:landscape) {
     .block2{
         height: 100%;
     }
+    .block2-imgs{
+        height: 100%;
+    }
 }
-@media  (orientation:landscape) {
+@media (min-width:768px) and (orientation:landscape) {
     .block2{
         height: 100%;
     }

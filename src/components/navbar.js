@@ -18,7 +18,7 @@ function Navbar() {
       <div className="container-fluid">
         {/* <a className="navbar-brand" href="#">I LOVE PDF</a> */}
         <div className="d-flex justify-content-center align-items-center ">
-          <a href="./" className="navbar-brand">
+          <a href="/" className="navbar-brand">
             <img
               className="setimage"
               src="https://www.ilovepdf.com/img/ilovepdf.svg"
@@ -1337,9 +1337,9 @@ function Navbar() {
               Login
             </Link>{" "}
             &nbsp;
-            <button className="btn btn-outline-success" type="submit">
+            <Link to="/create-account" className="btn btn-outline-success" type="submit">
               Sign up
-            </button>
+            </Link>
           </form>
         </div>
         {/* <div className="mobile">

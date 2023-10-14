@@ -30,6 +30,8 @@ import Pagenumber from "./components/tools/Pagenumber";
 import OCRtoPDF from "./components/tools/OCRtoPDF";
 import ScantoPDF from "./components/tools/ScantoPDF";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CreateAccount from "./components/CreateAccount";
+import ForgotPass from "./components/ForgotPass";
 
 function MainLayout() {
   return (
@@ -75,6 +77,8 @@ function App() {
           <Route path="/pagenumber" element={<Pagenumber />} />
           <Route path="/ocrtopdf" element={<OCRtoPDF />} />
           <Route path="/scantopdf" element={<ScantoPDF />} />
+          <Route path="/create-account" element={<CreateAccount/>}/>
+          <Route path="/login/forgotpassowrd" element={<ForgotPass/>}/>
         </Routes>
       </BrowserRouter>
     </div>

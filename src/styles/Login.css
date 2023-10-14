@@ -11,6 +11,7 @@
 }
 .login-anchor{
     color: red;
+    font-weight: 600;
 }
 
 
@@ -155,4 +156,13 @@
     .right-login-img{
         width: 100%;
     }
+}
+.privacy-policy p{
+   font-weight:400;
+   font-size: smaller;
+   color: #0e0505;
+}
+.privacy-policy p span{
+  color: red;
+  cursor: pointer;
 }

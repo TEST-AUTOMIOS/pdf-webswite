@@ -4,60 +4,56 @@ import { Col, Container, Row } from "react-bootstrap";
 import Faceboo from "../Assets/facebook.png";
 import Googl from "../Assets/google.png";
 import Vecto from "../Assets/vector-img.png";
-import {useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
 
-function Login() {
-   
-    const [isContentVisible, setContentVisible] = useState(false);
+function CreateAccount() {
+  const [isContentVisible, setContentVisible] = useState(false);
 
-    // Function to toggle the content visibility
-    const toggleContent = () => {
-      setContentVisible(!isContentVisible);
-    };
+  // Function to toggle the content visibility
+  const toggleContent = () => {
+    setContentVisible(!isContentVisible);
+  };
 
   return (
     <Container fluid className="login">
       <Row>
-        
-
-        <Col lg="5" md="12" sm="12" xs="12"className="right-login" >
-          <div >
+        <Col lg="5" md="12" sm="12" xs="12" className="right-login">
+          <div>
             <div className="ml-5">
               <img src={Vecto} alt="" className="right-login-img" />
               <br />
-              <h3>Login into your workspace</h3>
+              <h3>PDF tools for productive people</h3>
               <p>
                 Enter your email and password to access your iLovePDF account.
                 You are one step closer to boosting your document productivity.
               </p>
               <p className="toggle list__dropdown" onClick={toggleContent}>
-        {isContentVisible ? "Show less" : "See all tools"}{" "}
-        <span id="dropdownIcon">{isContentVisible ? "▲" : "▼"}</span>
-      </p>
-      {isContentVisible && (
-        <div className="toggle__content">
-          <ul className="listcheck" id="toolList">
-            {/* ... your list items here ... */}
-            <li>hello</li>
-            <li>hello</li>
-          </ul>
-        </div>
-      )}
+                {isContentVisible ? "Show less" : "See all tools"}{" "}
+                <span id="dropdownIcon">{isContentVisible ? "▲" : "▼"}</span>
+              </p>
+              {isContentVisible && (
+                <div className="toggle__content">
+                  <ul className="listcheck" id="toolList">
+                    {/* ... your list items here ... */}
+                    <li>hello</li>
+                    <li>hello</li>
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </Col>
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
           <div>
             <img src="https://www.ilovepdf.com/img/ilovepdf.svg" alt="" />
-            <br/>
-            <br/>
+            <br />
+            <br />
             <h2>Login to Your Account</h2>
-            <br/>
+            <br />
             <div>
               <button className="login-button type1">
                 <img src={Faceboo} alt="" className="login-icon" />
-                &nbsp; 
+                &nbsp;
                 <span className="btn-txt">facebook</span>
               </button>
               &nbsp;
@@ -68,6 +64,41 @@ function Login() {
             </div>
             <br />
             <div className="login-form">
+              <div className="input_container">
+                <label className="input_label" for="email_field">
+                  Name
+                </label>
+                <svg
+                  width="24"
+                  height="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  className="icon"
+                >
+                  <circle
+                    cx="12"
+                    cy="6"
+                    r="2"
+                    stroke="#1C274C"
+                    stroke-width="1"
+                  ></circle>
+                  <path
+                    d="M19.5 18C19.5 17.8358 19.5 17.669 19.5 17.5C19.5 15.0147 16.4183 13 12 13C7.58172 13 4.5 15.0147 4.5 17.5C4.5 19.9853 4.5 22 12 22C14.231 22 15.8398 21.8433 17 21.5634"
+                    stroke="#1C274C"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+
+                <input
+                  placeholder="name"
+                  title="mail address"
+                  name="input-name"
+                  type="text"
+                  className="input_field"
+                  id="email_field"
+                />
+              </div>
               <div className="input_container">
                 <label className="input_label" for="email_field">
                   Email
@@ -143,13 +174,26 @@ function Login() {
                 />
               </div>
               <br />
-              <Link to="/login/forgotpassowrd" className="login-anchor">forgot your password</Link>
-              <br /> <br />
-              <button type="button" class="btn btn-danger">Login</button>
+              {/* <a href="/" className="login-anchor">
+                forgot your password
+              </a> */}
+              <br />
+              <button type="button" class="btn btn-danger">
+                Sign Up
+              </button>
               <br /> <br />
               <span>
-                Don't have an account? &nbsp; <a href="/create-account" className="login-anchor">create an account</a>
+                Already member? &nbsp;{" "}
+                <a href="/login" className="login-anchor">
+                  Login
+                </a>
               </span>
+              <div className="privacy-policy">
+                <p>
+                  By creating an account, you agree to iLovePDF{" "}
+                  <span>Terms of Service</span> and <span>Privacy Policy</span> 
+                </p>
+              </div>
             </div>
           </div>
         </Col>
@@ -158,4 +202,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default CreateAccount;

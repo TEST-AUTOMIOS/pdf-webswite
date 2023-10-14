@@ -9,7 +9,7 @@ function Tools() {
         
       <Row className="card-height">
       <div className="card-group">
-        <Col lg="3" md="3" sm="6" xs="12">
+        <Col lg="3" md="3" sm="6" xs="12"  className="car-bot">
           <Link to={'/mergepdf'} className="link-tools">
         <div className="card">
          
@@ -40,9 +40,10 @@ function Tools() {
             </p>
           </div>
         </div>
+       
         </Link>
         </Col>
-        <Col lg="3" md="3" sm="6" xs="12">
+        <Col lg="3" md="3" sm="6" xs="12" className="car-bot">
         <Link to={'/splitpdf'} className="link-tools">
         <div className="card">
           
@@ -75,7 +76,7 @@ function Tools() {
         </div>
         </Link>
         </Col>
-        <Col lg="3" md="3" sm="6" xs="12">
+        <Col lg="3" md="3" sm="6" xs="12"  className="car-bot">
         <Link to={'/compresspdf'} className="link-tools">
         <div className="card">
           
@@ -109,7 +110,7 @@ function Tools() {
         </div>
         </Link>
         </Col>
-        <Col lg="3" md="3" sm="6" xs="12">
+        <Col lg="3" md="3" sm="6" xs="12" className="car-bot">
         <Link to={'/pdftoword'} className="link-tools">
         <div className="card">
           

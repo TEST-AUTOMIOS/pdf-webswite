@@ -18,8 +18,10 @@ function Content() {
               Complete projects faster with batch file processing, convert
               scanned documents with OCR and e-sign your business agreements.
             </p>
-           
-            <button type="button" className="btn btn-warning content-butto">get premium</button>
+           <div>
+                        <button type="button" className="content-butto">get premium</button>
+
+           </div>
           </div>
         </Col>
         <Col lg="6" md="12" sm="12" xs="12">
