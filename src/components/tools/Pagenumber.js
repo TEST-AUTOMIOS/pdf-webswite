@@ -1,7 +1,7 @@
 import '../tools/MergePDF.css';
 function Pagenumber() {
   return (
-    <div>
+<div className="tools-height">
       <div className="text-center pdf-text1">
         <h1 className="pdf-text2">Add PDF page numbers</h1>
         <p className="pdf-text3">

@@ -1,7 +1,7 @@
 import "../tools/MergePDF.css";
 function ExceltoPDF() {
   return (
-    <div>
+    <div className="tools-height">
       <div className="text-center pdf-text1">
         <h1 className="pdf-text2">Sign PDF</h1>
         <p className="pdf-text3">

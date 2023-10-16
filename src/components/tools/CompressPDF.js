@@ -2,7 +2,7 @@ import "../tools/MergePDF.css";
 
 function CompressPDF() {
   return (
-    <div>
+    <div className="tools-height">
       <div className="text-center pdf-text1">
         <h1 className="pdf-text2">Compress PDF files</h1>
         <p className="pdf-text3">

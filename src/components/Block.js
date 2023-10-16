@@ -5,7 +5,6 @@ import { Container, Row, Col } from "reactstrap";
 function Block() {
   return (
     <Container fluid className="block">
-      
       <Row className="block-top">
         <Col className="text-center">
           <h1 className="block-head">Looking for another solution?</h1>
@@ -20,8 +19,8 @@ function Block() {
             <p>
               Download the <a href="/">iLovePDF Desktop</a> App to work with
               your favorite PDF tools on your Mac or Windows PC. Get a
-              lightweight PDF app that helps you process heavy PDF tasks
-              offline in seconds.
+              lightweight PDF app that helps you process heavy PDF tasks offline
+              in seconds.
             </p>
           </div>
         </Col>
@@ -33,8 +32,8 @@ function Block() {
             <p>
               Download the <a href="/">iLovePDF Desktop</a> App to work with
               your favorite PDF tools on your Mac or Windows PC. Get a
-              lightweight PDF app that helps you process heavy PDF tasks
-              offline in seconds.
+              lightweight PDF app that helps you process heavy PDF tasks offline
+              in seconds.
             </p>
           </div>
         </Col>
@@ -46,8 +45,8 @@ function Block() {
             <p>
               Download the <a href="/">iLovePDF Desktop</a> App to work with
               your favorite PDF tools on your Mac or Windows PC. Get a
-              lightweight PDF app that helps you process heavy PDF tasks
-              offline in seconds.
+              lightweight PDF app that helps you process heavy PDF tasks offline
+              in seconds.
             </p>
           </div>
         </Col>
