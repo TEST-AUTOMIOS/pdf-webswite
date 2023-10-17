@@ -2,7 +2,7 @@ import '../tools/MergePDF.css';
 
 function PDFtoPowerpoint (){
   return (
-    <div>
+    <div className="tools-height">
       <div className="text-center pdf-text1">
         <h1 className="pdf-text2"> ConvertPDF to Powerpoint</h1>
         <p className="pdf-text3">

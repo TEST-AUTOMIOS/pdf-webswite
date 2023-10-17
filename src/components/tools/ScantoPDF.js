@@ -1,7 +1,7 @@
 import '../tools/MergePDF.css';
 function ScantoPDF() {
   return (
-    <div>
+    <div className="tools-height">
       <div className="text-center pdf-text1">
         <h1 className="pdf-text2"> Scan to PDF</h1>
         <p className="pdf-text3">
