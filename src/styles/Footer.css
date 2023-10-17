@@ -42,8 +42,12 @@
     padding: 0;
     
    max-width: 100%;
-   text-align: left;
+   text-align:left;
   }
+  /* .foot-ico{
+white-space: nowrap;
+
+  } */
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -70,3 +74,4 @@
   margin: 5px 100px;
  
 }
+

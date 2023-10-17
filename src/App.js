@@ -32,6 +32,7 @@ import ScantoPDF from "./components/tools/ScantoPDF";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CreateAccount from "./components/CreateAccount";
 import ForgotPass from "./components/ForgotPass";
+import Navbar2 from "./components/Navbar2";
 
 function MainLayout() {
   return (
@@ -52,7 +53,7 @@ function App() {
       
 
       <BrowserRouter>
-      <Navbar />
+      <Navbar2 />
         <Routes>
           <Route path="/" element={<MainLayout />} />
           <Route path="/login" element={<Login />} />

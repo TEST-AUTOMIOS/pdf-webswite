@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 // import ilovepdfSVG from '../assets/ilovepdf.svg';
-import "../styles/navbar.css";
+import "../styles/Navbar2.css";
 import { Link } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
+import {Col, Container, Row} from 'reactstrap';
 
-function Navbar() {
+function Navbar2() {
   // const [Clicked, setClicked] = useState(false);
  // Define a state variable to track the navbar state
  const [isNavOpen, setIsNavOpen] = useState(false);
@@ -12,6 +13,18 @@ function Navbar() {
  // Function to toggle the navbar
  const toggleNav = () => {
    setIsNavOpen(!isNavOpen);
+
+    // Function to toggle the navbar
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+    
+    // If the navbar is currently open, set a timeout to close it after 5 seconds
+    if (isNavOpen) {
+      setTimeout(() => {
+        setIsNavOpen(false);
+      }, 5000); // 5000 milliseconds (5 seconds)
+    }
+  };
  };
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
@@ -31,11 +44,11 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           onClick={toggleNav}
-          // data-bs-toggle="collapse"
-          // data-bs-target="#navbarSupportedContent"
-          // aria-controls="navbarSupportedContent"
-          // aria-expanded="false"
-          // aria-label="Toggle navigation"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <i className={isNavOpen ? "fa fa-times" : "fa fa-bars"}></i>
         </button>
@@ -44,6 +57,7 @@ function Navbar() {
             className='navbar-nav me-auto mb-2 mb-lg-0'
            
           >
+           
             <li className="nav-item for-mobile">
               <Link className="nav-link active" aria-current="page" to="mergepdf">
                 MERGE PDF
@@ -66,36 +80,19 @@ function Navbar() {
                 href="#"
                 id="navbarDropdown"
                 role="button"
-                // data-bs-toggle="dropdown"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 CONVERT PDF
               </a>
-              {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul> */}
+              <Container >
               <div
                 className="dropdown-menu multi-column rees"
                 aria-labelledby="navbarDropdown"
               >
+                <Row>
                 <div className="row dropdown-res">
+                    <Col lg="6" md="6" sm="12" xs="12">
                   <div className="col-md-6">
                     <ul>
                       <li>
@@ -269,6 +266,8 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
+                  </Col>
+                  <Col lg="6" md="6" sm="12" xs="12">
                   <div className="col-md-6">
                     <ul>
                       <li>
@@ -441,26 +440,34 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
+                  </Col>
                 </div>
+                </Row>
               </div>
+              </Container>
             </li>
             <li className="nav-item dropdown for-mobile1">
               <a
                 className="nav-link dropdown-toggle active"
-                href="#"
+               href="#"
                 id="navbarDropdown"
                 role="button"
-                // data-bs-toggle="dropdown"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
+                data-bs-auto-close="outside"
               >
                 ALL PDF TOOLS
               </a>
+              <Container>
               <div
                 className="dropdown-menu multi-column res"
                 aria-labelledby="navbarDropdown"
               >
+                
                 <div className="row res2">
-                  <div className="col-md-2">
+                    <Row>
+                    <Col lg="2" md="6" sm="6" xs="12">
+                  <div className="">
                     <ul>
                       <li>
                         <div className="nav__title">ORGANIZE PDF</div>
@@ -639,7 +646,9 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-2">
+                  </Col>
+                  <Col lg="2" md="6" sm="6" xs="12">
+                  <div className="">
                     <ul>
                       <li>
                         <div className="nav__title">OPTIMIZE PDF</div>
@@ -747,7 +756,9 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-2">
+                  </Col>
+                  <Col lg="2" md="6" sm="6" xs="12">
+                  <div className="">
                     <ul>
                       <li>
                         <div className="nav__title">CONVERT TO PDF</div>
@@ -920,7 +931,9 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-2">
+                  </Col>
+                  <Col lg="2" md="6" sm="6" xs="12">
+                  <div className="">
                     <ul>
                       <li>
                         <div className="nav__title">CONVERT FROM PDF</div>
@@ -1092,7 +1105,9 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-2">
+                  </Col>
+                  <Col lg="2" md="6" sm="6" xs="12">
+                  <div className="">
                     <ul>
                       <li>
                         <div className="nav__title">EDIT PDF</div>
@@ -1235,7 +1250,9 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-md-2">
+                  </Col>
+                  <Col lg="2" md="6" sm="6" xs="12">
+                  <div className="">
                     <ul>
                       <li>
                         <div className="nav__title">PDF SECURITY</div>
@@ -1324,15 +1341,17 @@ function Navbar() {
                       </li>
                     </ul>
                   </div>
+                  </Col>
+                  </Row>
                 </div>
+                
               </div>
+              </Container>
             </li>
-            {/* <li className="nav-item">
-            <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li> */}
+            
           </ul>
           <form className="d-flex form-login-signup">
-            {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
+            
             <Link to="/login" className="btn btn-outline-danger form-mobile1" type="submit">
               Login
             </Link>{" "}
@@ -1342,16 +1361,10 @@ function Navbar() {
             </Link>
           </form>
         </div>
-        {/* <div className="mobile">
-          <i
-            id="bar"
-            className={Clicked ? "fa fa-times" : "fa fa-bars"}
-            onClick={() => setClicked(!Clicked)}
-          ></i>
-        </div> */}
+        
       </div>
     </nav>
   );
 }
 
-export default Navbar;
+export default Navbar2;

@@ -19,31 +19,33 @@ nav {
 }
 
 /* .navbar-nav .nav-link:hover {
-    font-weight: bold;
-    color: #f42e2e;
-  } */
+      font-weight: bold;
+      color: #f42e2e;
+    } */
 /* Adjust the size and responsiveness of the dropdown */
 .rees {
-  width: 500px; /* Set a fixed width or use percentage for responsiveness */
+  width: 60vw; /* Set a fixed width or use percentage for responsiveness */
   min-width: 100%;
   padding: 15px;
-  position: absolute;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 50%;
+  /* position: absolute; */
+  /* -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); */
+  /* left: 50%; */
   padding-top: 10px;
+  /* text-align: left; */
   /* border: #02032d 1px solid; */
 }
-.res .res2 {
+
+.res {
   width: 90vw;
   min-width: 100%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-0%);
+  transform: translateX(-45%);
   background: #f8f9fa;
   /* left: -100%; */
   /* padding-top: 10px; */
-  left: 50%;
-  
+  left: 60%;
+
   position: absolute;
   padding: 15px;
   /* border: #02032d 1px solid; */
@@ -120,7 +122,6 @@ nav {
   }
 }
 
-
 @media (max-width: 768px) {
   .navbar-nav {
     display: flex;
@@ -129,11 +130,11 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    position:fixed;
+   
     top: 100px;
     right: -100px;
     width: 300px;
-   
+
     height: auto;
     /* background: #e7e6ea; */
     /* box-shadow: 0px 40px 80px #141314e2; */
@@ -141,18 +142,18 @@ nav {
     transition: 0.5s ease-in-out;
   }
   .res .res2 {
-    width: 100%;
-    max-height: 90vw; /* Adjust the maximum height as needed */
+    width: 90vw;
+    max-height: auto; /* Adjust the maximum height as needed */
     background: #f8f9fa;
     position: absolute;
-    left: 50%; /* Center the menu horizontally */
+    left: 100%; /* Center the menu horizontally */
     transform: translateX(-50%); /* Center the menu horizontally */
     overflow-y: auto;
+
     /* border: 1px solid #02032d; Adjust border styles as needed */
   }
-  
-  
-  .form-login-signup{
+
+  .form-login-signup {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -163,53 +164,120 @@ nav {
     background-color: #e7e6ea;
     /* padding: 40px 0 0 10px; */
     /* border-radius: 50%; */
-  }.res{
-    /* overflow-y: auto;
-    width: 300px;
-    max-height: 300px; */
   }
-
-  
 
   .navbar-nav li {
     margin-bottom: 25px;
   }
-  .for-mobile{
+  .for-mobile {
     display: none;
   }
-  .for-mobile1{
+  .for-mobile1 {
     top: -130px;
     right: 85px;
-    
   }
-  .setimage{
+  .setimage {
     height: 30px;
     width: 40px;
     /* margin-right: 50px; */
     margin-left: 5px;
   }
-  .form-mobile2{
-display: none;
+  .form-mobile2 {
+    display: none;
   }
-  
-  .form-login-signup{
+
+  .form-login-signup {
     display: flex;
     flex-direction: row;
     position: fixed;
     align-items: flex-start;
     justify-content: flex-start;
     right: 65px;
-    
+
     top: 10px;
-    z-index: 1000;
+    z-index: 999;
     /* background-color: #e7e6ea; */
     /* padding: 40px 0 0 10px; */
     /* border-radius: 50%; */
   }
-  
 }
-@media (max-width:768px) and (orientation:landscape) {
-  .for-mobile1{
-    right: 300px;
+@media (max-width: 767px) and (orientation: landscape) {
+  .for-mobile1 {
+    right: 200px;
+  }
+  .res .res2 {
+    width: 80vw;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    background: #f8f9fa;
+    position: absolute;
+    left: 100%; /* Center the menu horizontally */
+    transform: translateX(-50%); /* Center the menu horizontally */
+    overflow-y: auto;
+
+    /* border: 1px solid #02032d; Adjust border styles as needed */
+  }
+  .for-mobile {
+    display: none;
+  }
+  .for-mobile1 {
+    top: -130px;
+  }
+  .setimage {
+    height: 30px;
+    width: 40px;
+    /* margin-right: 50px; */
+    margin-left: 5px;
+  }
+  .form-mobile2 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 993px) and (orientation: landscape) {
+  .form-mobile2 {
+    display: none;
+  }
+  .for-mobile {
+    display: none;
+  }
+  .setimage {
+    height: 30px;
+    width: 40px;
+    /* margin-right: 50px; */
+    margin-left: 5px;
+  }
+  .for-mobile1 {
+    top: -130px;
+    right: 450px;
+  }
+  .res .res2 {
+    width: 80vw;
+    max-height: 300px; /* Adjust the maximum height as needed */
+    background: #f8f9fa;
+    position: absolute;
+    /* left: 50%; Center the menu horizontally */
+    transform: translateX(-50%); /* Center the menu horizontally */
+    overflow-y: auto;
+    left: 70%;
+
+    /* border: 1px solid #02032d; Adjust border styles as needed */
+  }
+  .form-login-signup {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+  }
+  .navbar-nav{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 100px;
+    right: -100px;
+    width: 300px;
+    height: auto;
+    padding: 40px 0 0 10px;
+    transition: 0.5s ease-in-out;
   }
 }
