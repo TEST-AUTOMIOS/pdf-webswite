@@ -33,6 +33,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CreateAccount from "./components/CreateAccount";
 import ForgotPass from "./components/ForgotPass";
 import Navbar2 from "./components/Navbar2";
+import Excelpdf from "./components/tools/excelpdf";
+import Editpdf from "./components/tools/editpdf";
+import PDFtoJPG from "./components/tools/PDFtoJPG";
+import JPGtoPDF from "./components/tools/JPGtoPDF";
 
 function MainLayout() {
   return (
@@ -80,6 +84,10 @@ function App() {
           <Route path="/scantopdf" element={<ScantoPDF />} />
           <Route path="/create-account" element={<CreateAccount/>}/>
           <Route path="/login/forgotpassowrd" element={<ForgotPass/>}/>
+          <Route path="/excelpdf" element={<Excelpdf/>}/>
+          <Route path="/editpdf" element={<Editpdf/>}/>
+          <Route path="/PDFtoJPG" element={<PDFtoJPG/>}/>
+          <Route path="/JPGtoPDF" element={<JPGtoPDF/>}/>
         </Routes>
       </BrowserRouter>
     </div>
