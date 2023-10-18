@@ -145,7 +145,7 @@ nav {
     width: 90vw;
     max-height: auto; /* Adjust the maximum height as needed */
     background: #f8f9fa;
-    position: absolute;
+    position: fixed;
     left: 100%; /* Center the menu horizontally */
     transform: translateX(-50%); /* Center the menu horizontally */
     overflow-y: auto;
