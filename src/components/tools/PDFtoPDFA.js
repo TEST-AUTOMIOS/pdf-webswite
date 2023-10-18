@@ -8,11 +8,15 @@ function PDFtoPDFA() {
         Convert PDF documents to PDF/A for archiving and long-term preservation.<br/>
              Convert to a specific PDF/A ISO conformance level.</p>
         <div>
+        <input type="file" id="fileInput" style={{ display: "none" }} accept=".pdf" />
+
         <a
           className="pdf-text4"
           id="pickfiles"
           href="javascript:;"
-
+          onClick={() => {
+            document.getElementById("fileInput").click();
+          }}
           title="Add more files"
           data-title="Add more files"
         >
@@ -26,6 +30,8 @@ function PDFtoPDFA() {
           className="pdf-text5"
           title="Select PDF from Google Drive"
           data-title="Select PDF from Google Drive"
+          target='blank'
+          href='https://drive.google.com'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +51,8 @@ function PDFtoPDFA() {
           class="pdf-text6"
           title="Select PDF from Dropbox"
           data-title="Select PDF from Dropbox"
+          target='blank'
+          href='https://www.dropbox.com'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

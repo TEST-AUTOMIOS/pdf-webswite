@@ -8,11 +8,15 @@ function OrganizePDF() {
         Sort, add and delete PDF pages.<br/>
 Drag and drop the page thumbnails and sort them in our PDF organizer.</p>
         <div>
+        <input type="file" id="fileInput" style={{ display: "none" }} accept=".pdf" />
+
         <a
           className="pdf-text4"
           id="pickfiles"
           href="javascript:;"
-
+onClick={()=>{
+  document.getElementById("fileInput").click();
+}}
           title="Add more files"
           data-title="Add more files"
         >
@@ -26,6 +30,8 @@ Drag and drop the page thumbnails and sort them in our PDF organizer.</p>
           className="pdf-text5"
           title="Select PDF from Google Drive"
           data-title="Select PDF from Google Drive"
+          href='https://drive.google.com'
+          target='blank'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +51,8 @@ Drag and drop the page thumbnails and sort them in our PDF organizer.</p>
           class="pdf-text6"
           title="Select PDF from Dropbox"
           data-title="Select PDF from Dropbox"
+          href='https://www.dropbox.com'
+          target='blank'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

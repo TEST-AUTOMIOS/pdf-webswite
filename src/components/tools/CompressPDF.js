@@ -9,20 +9,28 @@ function CompressPDF() {
           Reduce file size while optimizing for maximal PDF quality.
         </p>
         <div>
+        <input type="file" id="fileInput" style={{ display: "none" }} accept=".pdf" />
           <a
             className="pdf-text4"
             id="pickfiles"
-            href="javascript:;"
+            href="#"
             title="Add more files"
             data-title="Add more files"
+            onClick={() => {
+              document.getElementById("fileInput").click();
+            }}
           >
             <span>Select PDF files</span>
+           
+
           </a>
         
         <div className="pdf-top">
           <a
             id="gdrive_file_selector"
             className="pdf-text5"
+            href="https://drive.google.com"
+            target="blank"
             title="Select PDF from Google Drive"
             data-title="Select PDF from Google Drive"
           >
@@ -44,6 +52,8 @@ function CompressPDF() {
             class="pdf-text6"
             title="Select PDF from Dropbox"
             data-title="Select PDF from Dropbox"
+            href="https://www.dropbox.com"
+            target="blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

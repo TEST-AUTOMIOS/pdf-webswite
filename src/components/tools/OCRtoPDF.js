@@ -8,6 +8,7 @@ function OCRtoPDF() {
         Convert non-selectable PDF files into selectable and searchable PDF with<br/>
                         high accuracy.</p>
         <div>
+          <input type='file' accept='.pdf' id='fileInput' style={{display:'none'}}/>
         <a
           className="pdf-text4"
           id="pickfiles"
@@ -15,6 +16,9 @@ function OCRtoPDF() {
 
           title="Add more files"
           data-title="Add more files"
+          onClick={()=>{
+            document.getElementById("fileInput").click();
+          }}
         >
           <span>Select PDF files</span>
         </a>
@@ -26,6 +30,7 @@ function OCRtoPDF() {
           className="pdf-text5"
           title="Select PDF from Google Drive"
           data-title="Select PDF from Google Drive"
+          href='https://drive.google.com'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +50,7 @@ function OCRtoPDF() {
           class="pdf-text6"
           title="Select PDF from Dropbox"
           data-title="Select PDF from Dropbox"
+          href="https://www.dropbox.com"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

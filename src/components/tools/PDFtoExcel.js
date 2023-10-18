@@ -10,10 +10,15 @@ function PDFtoExcel (){
               <div style={{fontSize:'15px'}}>Powered by <span style={{color:'red'}}>Solid Documents.</span></div>  
         </p>
         <div>
+        <input type="file" id="fileInput" style={{ display: "none" }} accept=".pdf" />
+
         <a
           className="pdf-text4"
           id="pickfiles"    
           href="javascript:;"
+          onClick={() => {
+            document.getElementById("fileInput").click();
+          }}
           title="Add more files"
           data-title="Add more files"
         >

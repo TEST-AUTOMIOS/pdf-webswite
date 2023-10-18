@@ -11,12 +11,17 @@ function RepairPDF() {
           PDF is damaged we will be able to recover it partially or completely..
         </p>
         <div>
+        <input type="file" id="fileInput" style={{ display: "none" }} accept=".pdf" />
+
           <a
             className="pdf-text4"
             id="pickfiles"
             href="javascript:;"
             title="Add more files"
             data-title="Add more files"
+            onClick={() => {
+              document.getElementById("fileInput").click();
+            }}
           >
             <span>Select PDF files</span>
           </a>
@@ -26,6 +31,8 @@ function RepairPDF() {
               className="pdf-text5"
               title="Select PDF from Google Drive"
               data-title="Select PDF from Google Drive"
+              target="blank"
+              href="https://drive.google.com"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +52,8 @@ function RepairPDF() {
               class="pdf-text6"
               title="Select PDF from Dropbox"
               data-title="Select PDF from Dropbox"
+              target="blank"
+              href="https://www.dropbox.com"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

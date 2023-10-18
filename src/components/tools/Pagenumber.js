@@ -8,11 +8,15 @@ function Pagenumber() {
         Add page numbers into PDFs with ease. Choose your positions, dimensions,<br/>
          typography.</p>
         <div>
+        <input type="file" id="fileInput" style={{ display: "none" }} accept=".pdf" />
+
         <a
           className="pdf-text4"
           id="pickfiles"
           href="javascript:;"
-
+          onClick={() => {
+            document.getElementById("fileInput").click();
+          }}
           title="Add more files"
           data-title="Add more files"
         >
@@ -26,6 +30,8 @@ function Pagenumber() {
           className="pdf-text5"
           title="Select PDF from Google Drive"
           data-title="Select PDF from Google Drive"
+          target='blank'
+          href='https://drive.google.com'
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +49,8 @@ function Pagenumber() {
         <a
           id="dropbox_file_selector"
           class="pdf-text6"
+          target='blank'
+          href='https://www.dropbox.com'
           title="Select PDF from Dropbox"
           data-title="Select PDF from Dropbox"
         >

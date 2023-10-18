@@ -10,6 +10,9 @@
 
   margin-top: 40px;
 }
+.english-foot{
+  margin-left: 100px;
+}
 
 .fotter-column {
   text-align: left;
@@ -33,21 +36,28 @@
   .fotter {
     height: 100%;
   }
+
   .fotter-di {
     height: 100%;
     margin: 0 10px;
   }
-  .fotter-down{
-    margin:0;
+  .fotter-down {
+    margin: 0;
     padding: 0;
-    
-   max-width: 100%;
-   text-align:left;
+
+    text-align: left;
   }
   /* .foot-ico{
 white-space: nowrap;
 
   } */
+  .english-foot {
+    text-align: left;
+    margin: 0;
+  }
+  .foot-ico {
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -57,7 +67,6 @@ white-space: nowrap;
   .fotter-di {
     height: 100%;
   }
-  
 }
 @media (max-width: 992px) and (orientation: landscape) {
   .fotter {
@@ -72,6 +81,4 @@ white-space: nowrap;
 
 .fotter-down {
   margin: 5px 100px;
- 
 }
-
