@@ -9,7 +9,7 @@
   margin: 0 5%;
 }
 .height-premium {
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 0px;
 }
 .premium-cont {
@@ -21,20 +21,25 @@
 }
 .premium-cont p{
     font-weight: 500;
-}
+
+  }
 .premium-cont h1{
     font-weight: bold;
-    font-size: clamp(2rem,5vw,3rem);
+    font-size: clamp(1.5rem,5vw,3rem);
+    font-weight: 600;
+  
+    
 }
 
 .content-butto {
   background-color: #ede20d;
   font-weight: 600;
   border: none;
-  border-radius: 15%;
+  border-radius: 7px;
+  height:32px;
 }
 .content-butto:hover{
-background-color: #ec1515;
+background-color: #c0a600;
 transition: background-color 0.5s ease-in-out;
 transform: scale(1.1);
 }
@@ -52,7 +57,8 @@ transform: scale(1.1);
 
 @media (max-width:768px)  {
     .content{
-        height:auto;
+       
+      height:auto;
     }
     .content-bottom img{
         height: 100px;

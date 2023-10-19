@@ -19,7 +19,7 @@ function Content() {
               scanned documents with OCR and e-sign your business agreements.
             </p>
            <div>
-                        <button type="button" className="content-butto">get premium</button>
+                        <button type="button" className="content-butto">Get premium</button>
 
            </div>
           </div>
