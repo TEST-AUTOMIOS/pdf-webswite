@@ -163,6 +163,8 @@ nav {
     background-color: #e7e6ea;
     /* padding: 40px 0 0 10px; */
     /* border-radius: 50%; */
+
+
   }.res{
     /* overflow-y: auto;
     width: 300px;
@@ -211,5 +213,6 @@ display: none;
 @media (max-width:768px) and (orientation:landscape) {
   .for-mobile1{
     right: 300px;
+    
   }
 }
