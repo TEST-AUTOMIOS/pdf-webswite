@@ -31,3 +31,8 @@
 .link-tools {
   text-decoration: none;
 }
+@media (max-width:768px) {
+  .card{
+    margin-right: 0px;
+  }
+}

@@ -33,7 +33,7 @@ function Navbar2() {
     // Add a scroll event listener
     useEffect(() => {
       const handleScroll = () => {
-        if (window.scrollY >= 0.05 * window.innerHeight) { // 10vh
+        if (window.scrollY >= 0.03 * window.innerHeight) { // 10vh
           closeNav();
         }
       };
