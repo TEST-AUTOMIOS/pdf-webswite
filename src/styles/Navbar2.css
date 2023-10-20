@@ -110,6 +110,9 @@ nav {
   padding: 6px;
   /* margin-right: 5px; Adjust spacing as needed */
 }
+.form-mobile2 {
+  display: none;
+}
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
