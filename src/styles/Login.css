@@ -51,7 +51,7 @@
 .login-button:hover {
   
   color: #0e0505;
-  border:white dotted;
+  /* border:white dotted; */
 }
 
 
@@ -129,6 +129,7 @@ height: 100vh;
     color: #242424;
     font-size: large;
 }
+
 .ml-5{
     margin-left: 50px;
 }
@@ -148,6 +149,11 @@ height: 100vh;
     .right-login{
       height: 100%;
     }
+    .left-login-img .left-img{
+      height: 100%;
+      width: 50%;
+      margin-top: 10px;
+     }
     
 }
 @media (max-width:768px) and (orientation:landscape) {

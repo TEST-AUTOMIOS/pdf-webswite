@@ -48,14 +48,14 @@ function Login() {
           </div>
         </Col>
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
-          <div>
-            <img src="https://www.ilovepdf.com/img/ilovepdf.svg" alt="" />
+          <div className="left-login-img">
+            <img src="https://www.ilovepdf.com/img/ilovepdf.svg" className="left-img" alt="" />
             <br/>
             <br/>
             <h2>Login to Your Account</h2>
             <br/>
             <div>
-              <button className="login-button type1">
+              <button className="login-button type1"  style={{marginBottom:'10px'}}>
                 <img src={Faceboo} alt="" className="login-icon" />
                 &nbsp; 
                 <span className="btn-txt">facebook</span>
