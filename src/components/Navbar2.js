@@ -485,6 +485,7 @@ function Navbar2() {
                 <div
                   className="dropdown-menu multi-column res"
                   aria-labelledby="navbarDropdown"
+                  style={{border:'none', background:'none'}}
                 >
                   <div className="row res2">
                     <Row>
