@@ -8,6 +8,7 @@ import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 
+
 function ForgotPass() {
   const [isCaptchaVerified, setCaptchaVerified] = useState(false);
 
