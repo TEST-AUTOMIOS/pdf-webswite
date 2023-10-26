@@ -33,6 +33,7 @@
   z-index: 1;
   font-weight: 800;
   letter-spacing: 4px;
+  font-size:20px;
 }
 
 .type1::after {
