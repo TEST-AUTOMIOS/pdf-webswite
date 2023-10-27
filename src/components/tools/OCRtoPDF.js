@@ -3,7 +3,7 @@ function OCRtoPDF() {
   return (
     <div className="tools-height">
       <div className="text-center pdf-text1">
-        <h1 className="pdf-text2">OCR PDF</h1>
+        <h1 className="pdf-text2">OCR to PDF</h1>
         <p className="pdf-text3">
         Convert non-selectable PDF files into selectable and searchable PDF with<br/>
                         high accuracy.</p>
