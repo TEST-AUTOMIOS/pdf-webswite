@@ -1,15 +1,13 @@
-.home{
-    margin-bottom: 30px;
+.home {
+  margin-bottom: 30px;
 }
-.home-tittle-head1{
-    margin-top: 30px;
-    font-size: clamp(1.7rem,5vw,2.5rem);
-}
-
-.subtittle{
-    margin-top: 20px;
-font-size: clamp(1rem,5vw,1.5rem);
-padding: 0px 10px;
+.home-tittle-head1 {
+  margin-top: 30px;
+  font-size: clamp(1.7rem, 5vw, 2.5rem);
 }
 
-
+.subtittle {
+  margin-top: 20px;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  padding: 0px 10px;
+}
