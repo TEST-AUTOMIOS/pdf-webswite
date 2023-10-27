@@ -183,3 +183,23 @@ height: 100vh;
   color: red;
   cursor: pointer;
 }
+@media (min-width:1256px) and (max-width:1273px) {
+  .left-login {
+    height: 100%;
+
+    
+
+  }
+  .right-login{
+    height: 100%;
+  }
+
+ .login{
+  height: 100%;
+ }
+ .left-login-img img {
+
+  margin-top: 10px;
+ 
+ }
+}
