@@ -122,7 +122,7 @@ function Navbar2() {
                               <div className="nav__title">Convert to PDF</div>
                             </li>
                             <li>
-                              <a href="/">
+                              <a href="/JPGtoPDF">
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -156,7 +156,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/wordtopdf">
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -189,7 +189,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/powerpointtopdf">
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +222,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/excelpdf">
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +255,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/htmltopdf">
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -297,7 +297,7 @@ function Navbar2() {
                               <div className="nav__title">Convert from PDF</div>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/PDFtoJPG">
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -330,7 +330,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/pdftoword">
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -362,7 +362,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/pdftopowerpoint">
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -395,7 +395,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/pdftoexcel">
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -429,7 +429,7 @@ function Navbar2() {
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a href="/pdftopdfa">
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
