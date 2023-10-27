@@ -159,7 +159,7 @@
   }
   .left-login-img .left-img {
     height: 100%;
-    width: 50%;
+    width: 40%;
     margin-top: 10px;
   }
 }
@@ -177,7 +177,7 @@
   color: red;
   cursor: pointer;
 }
-@media (min-width: 1030px) and (max-width: 1273px) {
+@media (min-width: 1026px) and (max-width: 1280px) {
   .left-login {
     height: 100%;
   }
@@ -191,5 +191,8 @@
   .left-login-img img {
     margin-top: 10px;
   }
+  .right-login-img{
+    width:95%;
+    }
 }
 
