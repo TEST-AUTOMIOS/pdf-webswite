@@ -495,7 +495,7 @@ const navigate = useNavigate();
                   style={{border:'none', background:'none'}}
                 >
                   <div className="row res2">
-                    <Row>
+                    <Row className="all-pdf-tools">
                       <Col lg="2" md="6" sm="6" xs="12">
                         <div className="">
                           <ul>
