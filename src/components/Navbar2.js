@@ -163,7 +163,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/wordtopdf">
+                              <a onClick={()=> navigate("/wordtopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -196,7 +196,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/powerpointtopdf">
+                              <a  onClick={()=> navigate("/powerpointtopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +229,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/excelpdf">
+                              <a onClick={()=> navigate("/excelpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -262,7 +262,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/htmltopdf">
+                              <a onClick={()=> navigate("/htmltopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -304,7 +304,7 @@ const navigate = useNavigate();
                               <div className="nav__title">Convert from PDF</div>
                             </li>
                             <li>
-                              <a href="/PDFtoJPG">
+                              <a onClick={()=> navigate("/PDFtoJPG")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -337,7 +337,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftoword">
+                              <a onClick={()=> navigate("/pdftoword")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -369,7 +369,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftopowerpoint">
+                              <a onClick={()=> navigate("/pdftopowerpoint")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -402,7 +402,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftoexcel">
+                              <a onClick={()=> navigate("/pdftoexcel")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -436,7 +436,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftopdfa">
+                              <a onClick={()=> navigate("/pdftopdfa")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -503,7 +503,7 @@ const navigate = useNavigate();
                               <div className="nav__title">ORGANIZE PDF</div>
                             </li>
                             <li>
-                              <a href="/mergepdf">
+                              <a onClick={()=> navigate("/mergepdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -528,7 +528,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/splitpdf">
+                              <a onClick={()=> navigate("/splitpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -553,7 +553,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/organizepdf">
+                              <a onClick={()=> navigate("/organizepdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -586,7 +586,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/word_to_pdf">
+                              <a onClick={()=> navigate("/word_to_pdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -619,7 +619,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/organizepdf">
+                              <a onClick={()=> navigate("/organizepdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -690,7 +690,7 @@ const navigate = useNavigate();
                               <div className="nav__title">OPTIMIZE PDF</div>
                             </li>
                             <li>
-                              <a href="/compresspdf">
+                              <a onClick={()=> navigate("/compresspdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -713,7 +713,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/repairpdf">
+                              <a onClick={()=> navigate("/repairpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -736,7 +736,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/ocrtopdf">
+                              <a onClick={()=> navigate("/ocrtopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     width="50"
@@ -800,7 +800,7 @@ const navigate = useNavigate();
                               <div className="nav__title">CONVERT TO PDF</div>
                             </li>
                             <li>
-                              <a href="/JPGtoPDF">
+                              <a onClick={()=> navigate("/JPGtoPDF")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -834,7 +834,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/wordtopdf">
+                              <a onClick={()=> navigate("/wordtopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -867,7 +867,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/powerpointtopdf">
+                              <a onClick={()=> navigate("/powerpointtopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -900,7 +900,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/excelpdf">
+                              <a onClick={()=> navigate("/excelpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -933,7 +933,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/htmltopdf">
+                              <a onClick={()=> navigate("/htmltopdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -975,7 +975,7 @@ const navigate = useNavigate();
                               <div className="nav__title">CONVERT FROM PDF</div>
                             </li>
                             <li>
-                              <a href="/PDFtoJPG">
+                              <a onClick={()=> navigate("/PDFtoJPG")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1008,7 +1008,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftoword">
+                              <a onClick={()=> navigate("/pdftoword")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1040,7 +1040,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftopowerpoint">
+                              <a onClick={()=> navigate("/pdftopowerpoint")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1073,7 +1073,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftoexcel">
+                              <a onClick={()=> navigate("/pdftoexcel")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1107,7 +1107,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pdftopdfa">
+                              <a onClick={()=> navigate("/pdftopdfa")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1149,7 +1149,7 @@ const navigate = useNavigate();
                               <div className="nav__title">EDIT PDF</div>
                             </li>
                             <li>
-                              <a href="/rotatepdf">
+                              <a onClick={()=> navigate("/rotatepdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1176,7 +1176,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/pagenumber">
+                              <a onClick={()=> navigate("/pagenumber")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1200,7 +1200,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/watermark">
+                              <a onClick={()=> navigate("/watermark")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1224,7 +1224,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/editpdf">
+                              <a onClick={()=> navigate("/editpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -1294,7 +1294,7 @@ const navigate = useNavigate();
                               <div className="nav__title">PDF SECURITY</div>
                             </li>
                             <li>
-                              <a href="/unlockpdf">
+                              <a onClick={()=> navigate("/unlockpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1319,7 +1319,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/protectpdf">
+                              <a onClick={()=> navigate("/protectpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
@@ -1345,7 +1345,7 @@ const navigate = useNavigate();
                               </a>
                             </li>
                             <li>
-                              <a href="/signpdf">
+                              <a onClick={()=> navigate("/signpdf")}>
                                 <i className="ico-drop">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
