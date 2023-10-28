@@ -742,7 +742,7 @@ function Navbar() {
                               ></path>
                             </svg>
                           </i>
-                          OCR PDF
+                          OCR  PDF
                         </a>
                       </li>
                     </ul>
