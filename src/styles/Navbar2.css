@@ -60,6 +60,9 @@ nav {
 .dropdown-menu.multi-column .col-md-6 {
   width: 50%;
 }
+.row .dropdown-res li a {
+  cursor: pointer;
+}
 
 /* Style the links and titles */
 .dropdown-menu.multi-column ul {

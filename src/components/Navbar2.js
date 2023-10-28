@@ -1,7 +1,7 @@
 import React, {useEffect, useState } from "react";
 // import ilovepdfSVG from '../assets/ilovepdf.svg';
 import "../styles/Navbar2.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 import { Col, Container, Row } from "reactstrap";
 
@@ -46,6 +46,13 @@ function Navbar2() {
       };
     }, []); // Make sure to provide an empty dependency array to useEffect
   
+// useNavigate for route
+const navigate = useNavigate();
+
+// const handleNavigation = (route)=>{
+//   navigate(route)
+// }
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
       <div className="container-fluid">
@@ -122,7 +129,7 @@ function Navbar2() {
                               <div className="nav__title">Convert to PDF</div>
                             </li>
                             <li>
-                              <a href="/JPGtoPDF">
+                              <a  onClick={()=>navigate('/JPGtoPDF')}>
                                 <i className="ico-drop">
                                   <svg
                                     style={{ padding: "6px" }}
