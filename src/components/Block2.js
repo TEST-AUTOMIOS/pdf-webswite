@@ -14,7 +14,7 @@ function Block2() {
               </h1>
               <br />
               <p className="block2-para">
-                iLovePDF is your number one web app for editing PDF with ease.
+               REDOPDF is your number one web app for editing PDF with ease.
                 Enjoy all the tools you need to work <br /> efficiently with
                 your digital documents while keeping your data safe and secure.
               </p>

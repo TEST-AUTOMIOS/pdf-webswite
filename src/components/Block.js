@@ -13,11 +13,11 @@ function Block() {
       <Row className="block-down">
         <Col lg="4" md="12" sm="12" xs="12">
           <div>
-            <h3>iLovePDF Desktop</h3>
+            <h3>REDOPDF Desktop</h3>
           </div>
           <div>
             <p>
-              Download the <a href="/">iLovePDF Desktop</a> App to work with
+              Download the <a href="/">REDOPDF Desktop</a> App to work with
               your favorite PDF tools on your Mac or Windows PC. Get a
               lightweight PDF app that helps you process heavy PDF tasks offline
               in seconds.
@@ -26,11 +26,11 @@ function Block() {
         </Col>
         <Col lg="4" md="12" sm="12" xs="12">
           <div>
-            <h3>iLovePDF Desktop</h3>
+            <h3>REDOPDF Desktop</h3>
           </div>
           <div>
             <p>
-              Download the <a href="/">iLovePDF Desktop</a> App to work with
+              Download the <a href="/"> REDOPDF Desktop </a> App to work with
               your favorite PDF tools on your Mac or Windows PC. Get a
               lightweight PDF app that helps you process heavy PDF tasks offline
               in seconds.
@@ -39,11 +39,11 @@ function Block() {
         </Col>
         <Col lg="4" md="12" sm="12" xs="12">
           <div>
-            <h3>iLovePDF Desktop</h3>
+            <h3>REDOPDF Desktop</h3>
           </div>
           <div>
             <p>
-              Download the <a href="/">iLovePDF Desktop</a> App to work with
+              Download the <a href="/">REDOPDF Desktop</a> App to work with
               your favorite PDF tools on your Mac or Windows PC. Get a
               lightweight PDF app that helps you process heavy PDF tasks offline
               in seconds.

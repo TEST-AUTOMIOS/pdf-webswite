@@ -28,7 +28,7 @@ function Login() {
               <br />
               <h3>Login into your workspace</h3>
               <p>
-                Enter your email and password to access your iLovePDF account.
+                Enter your email and password to access your REDOPDF account.
                 You are one step closer to boosting your document productivity.
               </p>
               <p className="toggle list__dropdown" onClick={toggleContent}>
