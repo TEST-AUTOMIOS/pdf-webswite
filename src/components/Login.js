@@ -6,6 +6,7 @@ import Googl from "../Assets/google.png";
 import Vecto from "../Assets/vector-img.png";
 import {useState } from "react";
 import { Link } from "react-router-dom";
+import RedoPDF from '../Assets/RedoPPDF.png';
 
 function Login() {
    
