@@ -46,7 +46,7 @@ function CreateAccount() {
         </Col>
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
           <div>
-            <img style={{marginTop:'20px',width:'200px'}} src= {redoPdf} alt="" />
+            <img style={{marginTop:'20px',width:'200px',filter:'contrast(10)'}} src= {redoPdf} alt="our logo" />
             <br />
             <br />
             <h2>Login to Your Account</h2>

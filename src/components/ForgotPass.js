@@ -61,7 +61,7 @@ function ForgotPass() {
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
           <div>
             <br/>
-            <img  style={{width:'200px'}}src={redoPdf} alt="" />
+            <img  style={{width:'200px',filter:'contrast(10)'}}src={redoPdf} alt="" />
             <br />
             <br />
             <h2>Reset your password</h2>
