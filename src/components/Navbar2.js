@@ -4,6 +4,7 @@ import "../styles/Navbar2.css";
 import { Link, useNavigate } from "react-router-dom";
 import "font-awesome/css/font-awesome.min.css";
 import { Col, Container, Row } from "reactstrap";
+import redoPdf from '../Assets/REDO-_2_.png';
 
 function Navbar2() {
   // Define a state variable to track the navbar state
@@ -61,7 +62,7 @@ const navigate = useNavigate();
           <a href="/" className="navbar-brand">
             <img
               className="setimage"
-              src="https://www.ilovepdf.com/img/ilovepdf.svg"
+              src={redoPdf}
               alt=""
             />
           </a>

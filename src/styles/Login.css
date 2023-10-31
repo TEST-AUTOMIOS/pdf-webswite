@@ -195,4 +195,9 @@
     width:95%;
     }
 }
+.left-img{
+  filter: contrast(10)saturate(10) ;
+  
+  height: 80px;
+}
 

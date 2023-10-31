@@ -1,8 +1,9 @@
 .setimage {
-  height: 40px;
-  width: 90px;
+  height: auto;
+  width: 80%;
   /* margin-right: 50px; */
   margin-left: 30px;
+  filter: contrast(10) ;
 }
 nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -187,10 +188,10 @@ nav {
     right: 85px;
   }
   .setimage {
-    height: 30px;
-    width: 40px;
+    height: auto;
+    width: 50%;
     /* margin-right: 50px; */
-    margin-left: 5px;
+    margin-left: 1px;
   }
   .form-mobile2 {
     display: none;
@@ -233,8 +234,8 @@ nav {
     top: -130px;
   }
   .setimage {
-    height: 30px;
-    width: 40px;
+    height: auto;
+    width: 60%;
     /* margin-right: 50px; */
     margin-left: 5px;
   }
