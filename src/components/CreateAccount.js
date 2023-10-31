@@ -5,6 +5,7 @@ import Faceboo from "../Assets/facebook.png";
 import Googl from "../Assets/google.png";
 import Vecto from "../Assets/vector-img.png";
 import { useState } from "react";
+import redoPdf from '../Assets/REDO-_2_.png';
 
 function CreateAccount() {
   const [isContentVisible, setContentVisible] = useState(false);
@@ -45,7 +46,7 @@ function CreateAccount() {
         </Col>
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
           <div>
-            <img src="https://www.ilovepdf.com/img/ilovepdf.svg" alt="" />
+            <img style={{marginTop:'20px',width:'200px'}} src= {redoPdf} alt="" />
             <br />
             <br />
             <h2>Login to Your Account</h2>

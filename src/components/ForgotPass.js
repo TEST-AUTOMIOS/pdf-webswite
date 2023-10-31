@@ -6,6 +6,7 @@ import Googl from "../Assets/google.png";
 import Vecto from "../Assets/vector-img.png";
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import redoPdf from '../Assets/REDO-_2_.png';
 
 
 
@@ -60,7 +61,7 @@ function ForgotPass() {
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
           <div>
             <br/>
-            <img src="https://www.ilovepdf.com/img/ilovepdf.svg" alt="" />
+            <img  style={{width:'200px'}}src={redoPdf} alt="" />
             <br />
             <br />
             <h2>Reset your password</h2>
