@@ -7,6 +7,7 @@ import redoPdf from "../Assets/REDO-_2_.png";
 import Vecto from "../Assets/vector-img.png";
 import {useState } from "react";
 import { Link } from "react-router-dom";
+import RedoPDF from '../Assets/RedoPPDF.png';
 
 function Login() {
    
@@ -29,7 +30,7 @@ function Login() {
               <br />
               <h3>Login into your workspace</h3>
               <p>
-                Enter your email and password to access your REDOPDF account.
+                Enter your email and password to access your RedoPdf account.
                 You are one step closer to boosting your document productivity.
               </p>
               <p className="toggle list__dropdown" onClick={toggleContent}>

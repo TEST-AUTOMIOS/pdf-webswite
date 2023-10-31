@@ -24,7 +24,7 @@ function CreateAccount() {
               <br />
               <h3>PDF tools for productive people</h3>
               <p>
-                Enter your email and password to access your REDOPDF account.
+                Enter your email and password to access your RedoPdf account.
                 You are one step closer to boosting your document productivity.
               </p>
               <p className="toggle list__dropdown" onClick={toggleContent}>
@@ -190,7 +190,7 @@ function CreateAccount() {
               </span>
               <div className="privacy-policy">
                 <p>
-                  By creating an account, you agree to REDOPDF{" "}
+                  By creating an account, you agree to RedoPdf{" "}
                   <span>Terms of Service</span> and <span>Privacy Policy</span> 
                 </p>
               </div>
