@@ -10,7 +10,7 @@ function Footer() {
           <Col lg="3" md="3" sm="6" xs="6">
             <div className="fotter-column">
               <ul>
-                <p>REDOPDF</p>
+                <p>RedoPdf</p>
                 <li>Home</li>
                 <li>Features</li>
                 <li>Pricing</li>
@@ -24,11 +24,11 @@ function Footer() {
             <div className="fotter-column">
               <ul>
                 <p>PRODUCT</p>
-                <li>REDOPDF DESKTOP</li>
-                <li>REDOPDF Mobile</li>
+                <li>RedoPdf DESKTOP</li>
+                <li>RedoPdf Mobile</li>
                 <li>Developers</li>
                 <li>Wordpress Plugin</li>
-                <li>REDOPDF pdf</li>
+                <li>RedoPdf pdf</li>
               </ul>
             </div>
           </Col>
@@ -130,7 +130,7 @@ function Footer() {
         English
         </Col>
         <Col lg="4"md="6" sm="6" xs="8">
-        @REDOPDF-2023 
+        @RedoPdf-2023 
         <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
