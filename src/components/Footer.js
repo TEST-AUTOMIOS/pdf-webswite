@@ -28,7 +28,7 @@ function Footer() {
                 <li>RedoPdf Mobile</li>
                 <li>Developers</li>
                 <li>Wordpress Plugin</li>
-                <li>RedoPdf pdf</li>
+                <li>RedoPdf</li>
               </ul>
             </div>
           </Col>
