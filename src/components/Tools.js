@@ -72,7 +72,7 @@ function Tools() {
                       style={{ fontSize: "13px", color: "grey" }}
                     >
                       Easily extract single pages or entire sets for seamless
-                      conversion into independent, high-powered PDFs
+                      conversion into independent, high-powered PDFs.
                     </p>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ function Tools() {
                       style={{ fontSize: "13px", color: "grey" }}
                     >
                       Harness the power of AI to effortlessly reduce file size
-                      while maximizing PDF quality to its fullest potential
+                      while maximizing PDF quality to its fullest potential.
                     </p>
                   </div>
                 </div>
@@ -390,7 +390,7 @@ function Tools() {
                       style={{ fontSize: "13px", color: "grey" }}
                     >
                       Harness AI's power to transform your PDF files into easily
-                      editable PPT and PPTX slideshows with ease
+                      editable PPT and PPTX slideshows with ease.
                     </p>
                   </div>
                 </div>
@@ -1054,7 +1054,7 @@ function Tools() {
                       style={{ fontSize: "13px", color: "grey" }}
                     >
                       Easily and quickly transform scanned PDFs into highly
-                      searchable and selectable documents with AI precision
+                      searchable and selectable documents with AI precision.
                     </p>
                   </div>
                 </div>
