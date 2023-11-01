@@ -203,11 +203,18 @@
   }
 }
 @media (min-width:767px)and (max-width:992px) and (orientation:landscape) {
+  .login{
+    height: 100%;
+  }
   .left-login{
     height: 100%;
+    background-color: #d1cfcf;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
   }
   .right-login{
     height: 100%;
+    background-color: #1920e44d;;
   }
 }
 
