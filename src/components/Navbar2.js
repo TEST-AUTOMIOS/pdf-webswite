@@ -486,6 +486,7 @@ const navigate = useNavigate();
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 data-bs-auto-close="outside"
+                style={{display:'none'}}
               >
                 ALL PDF TOOLS
               </a>

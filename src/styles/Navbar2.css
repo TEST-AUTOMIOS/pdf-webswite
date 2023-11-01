@@ -256,6 +256,7 @@ nav {
     width: 40px;
     /* margin-right: 50px; */
     margin-left: 5px;
+    filter:contrast(10);
   }
   .for-mobile1 {
     top: -130px;

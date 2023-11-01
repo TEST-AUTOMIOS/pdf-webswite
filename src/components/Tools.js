@@ -36,8 +36,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      combine PDFs in the order you want with the easiest PDF
-                      merger available
+                      Experience the AI-powered speed and precision of our PDF
+                      merger. Tailor your document order effortlessly.
                     </p>
                   </div>
                 </div>
@@ -71,8 +71,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Separate one page or a whole set for<br></br>easy
-                      conversion into independent PDF files.
+                      Easily extract single pages or entire sets for seamless
+                      conversion into independent, high-powered PDFs
                     </p>
                   </div>
                 </div>
@@ -104,8 +104,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Reduce file size while optimizing for<br></br> maximal PDF
-                      quality.
+                      Harness the power of AI to effortlessly reduce file size
+                      while maximizing PDF quality to its fullest potential
                     </p>
                   </div>
                 </div>
@@ -146,8 +146,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Easily convert your PDF files into easy<br></br>to edit
-                      DOC and DOCX documents.
+                      Unlock the power of AI for easy and lightning-fast
+                      conversion, turning your PDF files into effortlessly
+                      editable DOC and DOCX documents.
                     </p>
                   </div>
                 </div>
@@ -195,8 +196,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Make EXCEL spreadsheets easy to <br />
-                      read by converting them to PDF
+                      Experience the magic of AI as it simplifies your Excel
+                      spreadsheets, making them easy to read by seamlessly
+                      converting them into PDFs.
                     </p>
                   </div>
                 </div>
@@ -248,9 +250,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Add text, images, shapes or freehand <br />
-                      annotations to a PDF document. Edit
-                      <br /> the size, font, and color of the added content.
+                      Enhance PDFs with AI precision: Add text, images, shapes,
+                      or annotations. Customize size, font, and color
+                      effortlessly. Your PDFs, your way!
                     </p>
                   </div>
                 </div>
@@ -260,7 +262,7 @@ function Tools() {
               <Link to={"/pdftojpg"} className="link-tools">
                 <div className="card">
                   <svg
-                  style={{padding:'5px'}}
+                    style={{ padding: "5px" }}
                     xmlns="http://www.w3.org/2000/svg"
                     width="48"
                     height="48"
@@ -292,8 +294,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Convert each PDF page into a JPG or extract all images
-                      contained in a PDF
+                      Unlock AI's potential to convert every PDF page into JPGs
+                      or effortlessly extract all images from a PDF. Make image
+                      handling a breeze!
                     </p>
                   </div>
                 </div>
@@ -334,9 +337,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                    Convert JPG images to PDF in
-                     seconds. Easily adjust orientation and
-                      margins
+                      Transform JPG images into PDFs, with
+                      AI-powered speed. Effortlessly fine-tune orientation and
+                      margins for a seamless experience.
                     </p>
                   </div>
                 </div>
@@ -386,8 +389,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Turn your PDF files into easy to edit<br></br> PPT and
-                      PPTX slideshows.
+                      Harness AI's power to transform your PDF files into easily
+                      editable PPT and PPTX slideshows with ease
                     </p>
                   </div>
                 </div>
@@ -430,8 +433,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Pull data straight from PDFs into Excel<br></br>
-                      spreadsheets in a few short seconds.
+                      Harness the AI-driven magic to effortlessly pull data
+                      directly from PDFs and insert it into Excel spreadsheets
+                      in just a few short seconds.
                     </p>
                   </div>
                 </div>
@@ -473,8 +477,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Convert each PDF page into a JPG or<br></br> extract all
-                      images contained in a PDF
+                      Easily convert each PDF page into a high-quality JPG or
+                      extract all images contained within a PDF with the power
+                      of AI at your fingertips.
                     </p>
                   </div>
                 </div>
@@ -517,8 +522,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Make PPT and PPTX slideshows east to<br></br>view by
-                      converting them to PDF.
+                      Simplify presentation viewing by converting PPT and PPTX
+                      slideshows into accessible PDFs with AI efficiency.
                     </p>
                   </div>
                 </div>
@@ -565,8 +570,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Sign yourself or request electronic<br></br>signatures
-                      from others.
+                      Effortlessly handle electronic signatures with AI
+                      convenience. Sign documents or request e-signatures with
+                      ease.
                     </p>
                   </div>
                 </div>
@@ -598,8 +604,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Stamp an image or text over your PDF<br></br> in seconds.
-                      Choose the typography,<br></br> transparency and position.
+                      Stamp images or text onto your PDFs in seconds. Customize
+                      typography, transparency, and position with AI precision.
                     </p>
                   </div>
                 </div>
@@ -634,8 +640,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Rotate your PDFs the way you need<br></br> them. You can
-                      even rotate multiple PDFs at once!
+                      Rotate your PDFs to your preferred orientation. You can
+                      even batch rotate multiple PDFs simultaneously!
                     </p>
                   </div>
                 </div>
@@ -677,9 +683,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Convert webpages in HTML to PDF.<br></br> Copy and paste
-                      the URL of the page you<br></br> want and convert it to
-                      PDF with a click.
+                      HTML to PDF effortlessly. Paste the URL of your desired
+                      page, and convert it to PDF with a single click using
+                      AI-powered speed.
                     </p>
                   </div>
                 </div>
@@ -718,8 +724,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Remove PDF password security, giving<br></br> you the
-                      freedom to use your PDFs as<br></br> you want.
+                      Effortlessly remove PDF password security, granting you
+                      the freedom to use your PDFs as you desire.
                     </p>
                   </div>
                 </div>
@@ -753,8 +759,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Protect PDF files with a password.<br></br> Encrypt PDF
-                      documents to prevent<br></br> unauthorized access.
+                      Secure your PDF files with a password. Encrypt PDF
+                      documents to thwart unauthorized access with AI-powered
+                      efficiency.
                     </p>
                   </div>
                 </div>
@@ -795,9 +802,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Sort pages of your PDF file however you like. Delete PDF
-                      pages or add PDF<br></br> pages to your<br></br> document
-                      at your convenience.
+                      Arrange your PDF pages to your liking. Add or delete PDF
+                      pages at your convenience with AI-powered flexibility.
                     </p>
                   </div>
                 </div>
@@ -838,8 +844,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Transform your PDF to PDF/A, the ISO <br></br>standardized
-                      version of PDF for long-term<br></br>
+                      Convert your PDF to PDF/A, the ISO-standardized long-term
+                      PDF format, effortlessly with AI precision.
                     </p>
                   </div>
                 </div>
@@ -877,8 +883,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Repair a damaged PDF and recover<br></br> data from
-                      corrupt PDF. Fix PDF files<br></br> with our Repair tool.
+                      Revive damaged PDFs and recover data from corrupt PDF
+                      files using our AI-powered Repair tool.
                     </p>
                   </div>
                 </div>
@@ -910,8 +916,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Add page numbers into PDFs with<br></br> ease. Choose your
-                      positions,<br></br> dimensions, typography.
+                      Effortlessly add page numbers to PDFs with ease. Customize
+                      positions, dimensions, and typography to your preference.
                     </p>
                   </div>
                 </div>
@@ -981,8 +987,9 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Capture document scans from your<br></br> mobile device
-                      and send them instantly<br></br> to your browser.
+                      Capture document scans from your mobile device and
+                      instantly send them to your browser with AI-powered
+                      convenience.
                     </p>
                   </div>
                 </div>
@@ -1046,8 +1053,8 @@ function Tools() {
                       className="card-text"
                       style={{ fontSize: "13px", color: "grey" }}
                     >
-                      Easily convert scanned PDF into <br></br>searchable and
-                      selectable documents.
+                      Easily and quickly transform scanned PDFs into highly
+                      searchable and selectable documents with AI precision
                     </p>
                   </div>
                 </div>

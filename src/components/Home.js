@@ -8,9 +8,9 @@ function Home() {
         Every tool you need to work with PDFs in one place
       </h1>
       <p className="subtittle">
-        Every tool you need to use PDFs, at your fingertips. All are 100% FREE
-        and easy to use! Merge, split, compress, convert, rotate,
-        unlock and watermark PDFs with just a few clicks.
+        Unleash AI-powered, lightning-fast PDF wizardry – 100% FREE! Merge,
+        split, compress, convert, rotate, unlock, and watermark PDFs
+        effortlessly. Elevate your PDF game today!
       </p>
     </div>
   );
