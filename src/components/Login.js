@@ -7,7 +7,7 @@ import redoPdf from "../Assets/REDO-_2_.png";
 import Vecto from "../Assets/vector-img.png";
 import {useState } from "react";
 import { Link } from "react-router-dom";
-import RedoPDF from '../Assets/RedoPPDF.png';
+import RedoPPDF from '../Assets/RedoPPDF.png';
 
 function Login() {
    
@@ -51,7 +51,7 @@ function Login() {
         </Col>
         <Col lg="7" md="12" sm="12" xs="12" className="text-center left-login">
           <div className="left-login-img">
-            <img src={redoPdf} className="left-img" alt="" />
+            <img src={RedoPPDF} className="left-img" alt="" />
             <br/>
             <br/>
             <h2>Login to Your Account</h2>
