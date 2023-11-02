@@ -10,7 +10,7 @@
     justify-content: center;
 }
 .block2-head{
-    font-size: clamp(2rem,5vw,3rem);
+    font-size: clamp(1.5rem,5vw,3rem);
 }
 .block2-para{
     font-size: clamp(1rem,5vw,1.5rem);
