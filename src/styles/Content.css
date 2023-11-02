@@ -26,7 +26,7 @@
 .premium-cont h1{
     font-weight: bold;
     font-size: clamp(1.5rem,5vw,3rem);
-    font-weight: 600;
+    /* font-weight: 600; */
   
     
 }

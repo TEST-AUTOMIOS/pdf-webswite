@@ -7,46 +7,43 @@ function Block() {
     <Container fluid className="block">
       <Row className="block-top">
         <Col className="text-center">
-          <h1 className="block-head">Looking for another solution?</h1>
+          <h1 className="block-head">Elevate Your PDF Experience</h1>
         </Col>
       </Row>
       <Row className="block-down">
         <Col lg="4" md="12" sm="12" xs="12">
           <div>
-            <h3>RedoPdf Desktop</h3>
+            <h3>Effortless PDF Management</h3>
           </div>
           <div>
             <p>
-              Download the <a href="/">RedoPdf Desktop</a> App to work with
-              your favorite PDF tools on your Mac or Windows PC. Get a
-              lightweight PDF app that helps you process heavy PDF tasks offline
-              in seconds.
+            <a href="/">RedoPdf</a> simplifies PDF tasks. With AI-powered speed and
+              quality, you can split, merge, edit, and compress PDFs, convert
+              Word to PDF, and transform images into PDFs.
             </p>
           </div>
         </Col>
         <Col lg="4" md="12" sm="12" xs="12">
           <div>
-            <h3>RedoPdf Desktop</h3>
+            <h3>Boost Productivity</h3>
           </div>
           <div>
             <p>
-              Download the <a href="/"> RedoPdf Desktop </a> App to work with
-              your favorite PDF tools on your Mac or Windows PC. Get a
-              lightweight PDF app that helps you process heavy PDF tasks offline
-              in seconds.
+              Boost productivity with <a href="/">RedoPdf</a>. Merge, split, edit, and
+              compress PDFs, convert Word to PDF, and convert images to PDF
+              quickly and efficiently with AI-driven technology.
             </p>
           </div>
         </Col>
         <Col lg="4" md="12" sm="12" xs="12">
           <div>
-            <h3>RedoPdf Desktop</h3>
+            <h3>Versatile PDF Solutions</h3>
           </div>
           <div>
             <p>
-              Download the <a href="/">RedoPdf Desktop</a> App to work with
-              your favorite PDF tools on your Mac or Windows PC. Get a
-              lightweight PDF app that helps you process heavy PDF tasks offline
-              in seconds.
+              <a href="/">RedoPdf</a> is your PDF hub. Split, merge, edit, and compress
+              PDFs, convert Word to PDF, and transform images into PDFs with AI
+              technology for speedy, high-quality results.
             </p>
           </div>
         </Col>
