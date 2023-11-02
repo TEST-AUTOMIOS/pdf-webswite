@@ -170,12 +170,14 @@
   .right-login-img {
     width: 50%;
   }
-  /* .right-login{
+  
+   .left-login{
+    height: auto;
+  } 
+  .login{
     height: 100%;
+  
   }
-  .left-login{
-    height: 100%;
-  } */
 
 }
 .privacy-policy p {
