@@ -10,18 +10,25 @@
   height: 100%;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-   margin-bottom: 5px;
+  margin-bottom: 5px;
   cursor: pointer;
-  background-image: radial-gradient(rgba(116, 114, 114, 0.306), rgba(83, 83, 86, 0.484));
+  background-image: radial-gradient(
+    rgba(116, 114, 114, 0.306),
+    rgba(83, 83, 86, 0.484)
+  );
 }
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px #f6f6f34d;
+  background-image: radial-gradient(
+    rgba(126, 123, 123, 0.306),
+    rgba(152, 152, 156, 0.484)
+  );
 }
 .card {
   margin-right: 10px; /* Adjust the value as needed */
 }
-.car-bot{
+.car-bot {
   margin-bottom: 5px;
 }
 
@@ -32,8 +39,8 @@
 .link-tools {
   text-decoration: none;
 }
-@media (max-width:768px) {
-  .card{
+@media (max-width: 768px) {
+  .card {
     margin-right: 0px;
   }
 }
