@@ -1,5 +1,5 @@
 .block-head{
-    color: #33333B;
+    color: #000006;
     font-size: clamp(1.7rem,5vw,4rem);
     font-family:Graphik,Arial,sans-serif;
     font-weight: bold;
@@ -27,7 +27,7 @@
 .block-down h3{
     font-weight: bold;
     font-size: clamp(1rem,5vw,1.5rem);
-    color: #33333B;
+    color: #090912;
 }
 .block-down{
    height: 80vh;

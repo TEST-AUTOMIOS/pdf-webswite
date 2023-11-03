@@ -8,11 +8,11 @@
 }
 .pdf-text2{
     font-size: clamp(1.7rem,5vw,2.5rem);
-    color: #33333B;
+    /* color: #33333B; */
 }
 .pdf-text3{
     font-size: clamp(1rem,5vw,1.5rem);
-     color: #47474f;
+     /* color: #47474f; */
      margin-bottom: 50px;
      
 }

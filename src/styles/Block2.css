@@ -1,6 +1,6 @@
 .block2{
     height: 50vh;
-    color: #33333b;
+    /* color: #33333b; */
    
 }
 
@@ -14,7 +14,8 @@
 }
 .block2-para{
     font-size: clamp(1rem,5vw,1.5rem);
-    color: #47474f;
+    color: #b5b5b9;
+    
 
 }
 .block2-img{

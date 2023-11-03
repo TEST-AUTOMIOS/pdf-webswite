@@ -5,15 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #b8c9c6;
+  color: white !important;
+  background-color: #0f0c13 !important;
   background-image: radial-gradient(
       at 47% 33%,
-      hsl(168, 62%, 86%) 0,
+      hsl(180, 2%, 24%) 0,
       transparent 59%
     ),
     radial-gradient(
-      at 82% 65%,
-      hsl(190.8, 28.000000000000004%, 65%) 0,
+      at 50% 70%,
+      hsl(180, 1%, 25%) 0,
       transparent 55%
     );
 }
