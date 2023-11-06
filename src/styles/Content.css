@@ -1,6 +1,8 @@
 .content {
   height: 70vh;
-  background-color: #f0f0f2;
+  /* background-color: #f0f0f2; */
+  /* background: rgb(177,177,190); */
+background: linear-gradient(90deg, rgb(199, 199, 207) 15%, rgba(255,255,255,1) 51%, rgb(204, 204, 209) 93%);
   text-align: center;
   color:rgb(7, 6, 6);
   
