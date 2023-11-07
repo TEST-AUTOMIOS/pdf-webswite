@@ -12,6 +12,10 @@ function Footer() {
     navigate("/");
 
   };
+  const scrollTopdNavigate2=()=>{
+    window .scroll(95,95);
+
+  }
   // for copy the mobile number to clipboard
     // step :1
     // create a text area to hold the text and create a function
@@ -41,7 +45,7 @@ function Footer() {
                 <li onClick={scrollToTopandNavigate}>Home</li>
                 <li>Features</li>
                 {/* <li>Pricing</li> */}
-                <li onClick={scrollToTopandNavigate}>Tools</li>
+                <li onClick={ scrollTopdNavigate2}>Tools</li>
                 {/* <li>FAQ</li> */}
               </ul>
             </div>
