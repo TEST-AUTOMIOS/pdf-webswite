@@ -96,12 +96,12 @@ function Footer() {
         <hr/>
         <Col className="english-foot">English</Col>
         <Col lg="4" md="6" sm="6" xs="8">
-          @RedoPdf-2023
+         <span> @RedoPdf-2023</span> &nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
-            fill="black"
+            fill="white"
             class="bi bi-twitter-x "
             viewBox="0 0 16 16"
           >
