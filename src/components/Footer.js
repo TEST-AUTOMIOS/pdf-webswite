@@ -8,7 +8,10 @@ function Footer() {
 
   // scroll to top
   const scrollToTopandNavigate = () => {
-    window.scroll(0, 0);
+    window.scroll({
+      top:0,
+      behavior:"instant"
+    });
     navigate("/");
 
   };
