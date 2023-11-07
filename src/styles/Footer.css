@@ -1,9 +1,9 @@
 .fotter {
-  height: 60vh;
+  height: 40vh;
 }
 .fotter-di {
-  margin: 0 100px;
-  height: 50vh;
+ margin-left: 120px;
+  height: 30vh;
 }
 .fotter-top {
   height: 100%;
@@ -31,6 +31,15 @@
   margin-bottom: 5px; /* Adjust the margin to control the spacing between list items */
   cursor: pointer;
 }
+.fotter-column ul li .fott-mail{
+  text-decoration: none;
+  color: aliceblue;
+}
+.fotter-column ul li .fott-mail:hover{
+ color: #f40c0c;
+ 
+}
+
 
 @media (max-width: 768px) {
   .fotter {
