@@ -3,7 +3,8 @@
   margin-bottom: 50px;
 }
 .card-height {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  /* height: auto; */
 }
 .card {
   height: 100%;
@@ -25,10 +26,10 @@
   );
 }
 .card {
-  margin-right: 10px; /* Adjust the value as needed */
+  margin-right: 5px; /* Adjust the value as needed */
 }
 .car-bot {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 /* To prevent margin on the last card from affecting layout */
@@ -43,4 +44,11 @@
     margin-right: 0px;
   }
 }
-
+@media (orientation: landscape) {
+  .card {
+    margin: 3px;
+  }
+  .card-height{
+    margin: 5px;
+  }
+}
