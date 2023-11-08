@@ -3,7 +3,7 @@ import "../styles/Login.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Faceboo from "../Assets/facebook.png";
 import Googl from "../Assets/google.png";
-import Vecto from "../Assets/vector-img.png";
+import Vecto from "../Assets/forgot-password.png";
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import RedoPPDF from '../Assets/RedoPPDF.png';
@@ -38,7 +38,7 @@ function ForgotPass() {
         <Col lg="5" md="12" sm="12" xs="12" className="right-login">
           <div>
             <div className="ml-5">
-              <img src={Vecto} alt="" className="right-login-img" />
+              <img src={Vecto} alt="" className="right-forgot-img" style={{height:'30%',width:'30%'}}/>
               <br />
               <h3>Lost password?</h3>
               <p>No worries. Let's get you a new one quickly!</p>

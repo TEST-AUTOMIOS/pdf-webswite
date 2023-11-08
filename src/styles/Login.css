@@ -1,22 +1,33 @@
 .login {
-  height: 100vh;
-  background: #f0eded;
+  /* height: 100svh; */
+  /* height: 100; */
+  background: #f0eded !important;
   color: #0e161c;
+ 
 }
 .left-login {
   display: flex;
-
+height: 100%;
+flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  
+  padding-top: 10%;
 }
+.right-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  /* max-height: 100%; */
+  background-color: rgba(44, 48, 174, 0.3);
+  /* padding-left: 100px; */
+}
+
 .login-anchor {
   color: red;
   font-weight: 600;
 }
-
-
 
 .login-button {
   height: 50px;
@@ -115,14 +126,7 @@
 }
 
 /* for right side contents  */
-.right-login {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: rgba(44, 48, 174, 0.3);
-  /* padding-left: 100px; */
-}
+
 .right-login h3 {
   font-weight: bold;
 }
@@ -170,15 +174,14 @@
   .right-login-img {
     width: 50%;
   }
-  
-   .left-login{
-    height: auto;
-  } 
-  .login{
-    height: 100%;
-  
-  }
 
+  /* .left-login {
+    height: 100vh;
+    
+  }
+  .login {
+    height: 100%;
+  } */
 }
 .privacy-policy p {
   font-weight: 400;
@@ -190,16 +193,16 @@
   cursor: pointer;
 }
 @media (min-width: 1026px) and (max-width: 1280px) {
-  .left-login {
+  /* .left-login {
     height: 100%;
-  }
-  .right-login {
+  } */
+  /* .right-login {
     height: 100%;
-  }
+  } */
 
-  .login {
+  /* .login {
     height: 100%;
-  }
+  } */
   .left-login-img img {
     margin-top: 10px;
   }
@@ -207,22 +210,21 @@
     width: 95%;
   }
 }
-@media (min-width:767px)and (max-width:992px) and (orientation:landscape) {
-  .login{
-    height: 100%;
+@media (min-width: 767px) and (max-width: 992px) and (orientation: landscape) {
+  .login {
+   /* height: 100vh; */
   }
-  .left-login{
+  .left-login {
     height: 100%;
     background-color: #d1cfcf;
     margin-bottom: 0px;
     padding-bottom: 20px;
   }
-  .right-login{
+  .right-login {
     height: 100%;
-    background-color: #1920e44d;;
+    /* background-color: #1920e44d; */
   }
 }
-
 
 .left-login-img .left-img {
   filter: contrast(10) saturate(10);
