@@ -173,7 +173,6 @@
   
    .left-login{
     height: auto;
-    
   } 
   .login{
     height: 100%;
@@ -193,7 +192,6 @@
 @media (min-width: 1026px) and (max-width: 1280px) {
   .left-login {
     height: 100%;
-    
   }
   .right-login {
     height: 100%;
@@ -229,5 +227,5 @@
 .left-login-img .left-img {
   filter: contrast(10) saturate(10);
 
-  height: 50px;
+  height: 80px;
 }
