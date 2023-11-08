@@ -1,5 +1,5 @@
 .login {
-  height: auto;
+  height: 100vh;
   background: #f0eded;
   color: #0e161c;
  
@@ -120,7 +120,7 @@ padding-top: 8%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: auto;
+  height: 100vh;
   background-color: rgba(44, 48, 174, 0.3);
   /* padding-left: 100px; */
 }
@@ -195,7 +195,7 @@ padding-top: 8%;
     height: 100%;
   }
   .right-login {
-    height: auto;
+    height: 100vh;
   }
 
   
@@ -226,5 +226,5 @@ padding-top: 8%;
 .left-login-img .left-img {
   filter: contrast(10) saturate(10);
 
-  height: 80px;
+  height: 50px;
 }
