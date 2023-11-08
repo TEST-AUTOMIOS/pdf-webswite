@@ -1,11 +1,12 @@
 .login {
-  height: 100vh;
+  height: auto;
   background: #f0eded;
   color: #0e161c;
+ 
 }
 .left-login {
   display: flex;
-
+padding-top: 8%;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
@@ -119,7 +120,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: auto;
   background-color: rgba(44, 48, 174, 0.3);
   /* padding-left: 100px; */
 }
@@ -194,17 +195,15 @@
     height: 100%;
   }
   .right-login {
-    height: 100%;
+    height: auto;
   }
 
-  .login {
-    height: 100%;
-  }
+  
   .left-login-img img {
     margin-top: 10px;
   }
   .right-login-img {
-    width: 95%;
+    width: 90%;
   }
 }
 @media (min-width:767px)and (max-width:992px) and (orientation:landscape) {
