@@ -38,7 +38,7 @@ function ForgotPass() {
         <Col lg="5" md="12" sm="12" xs="12" className="right-login">
           <div>
             <div className="ml-5">
-              <img src={Vecto} alt="" className="right-forgot-img" style={{height:'30%',width:'30%'}}/>
+              <img src={Vecto} alt="" className="right-forgot-img mt-2" style={{height:'40%',width:'40%'}}/>
               <br />
               <h3>Lost password?</h3>
               <p>No worries. Let's get you a new one quickly!</p>
